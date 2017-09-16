@@ -1,0 +1,83 @@
+#area{
+	width: 80%;
+	height: 77%;
+	vertical-align: middle;
+	margin:auto;
+}
+body{
+	display: flex;
+	justify-content:center;
+}
+.btn{
+	width: 65px;
+	height: 47px;
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-default{
+	color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+#buttons1{
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 15px;
+}
+#buttons2{
+	display: flex;
+	justify-content:space-between;
+	margin:  0 5%;
+	margin-bottom: 15px;
+}
+#buttons3{
+	display: flex;
+	justify-content:space-between;
+	margin:  0 10%;
+}
+#word-game{
+	display: flex;
+	justify-content:space-between;
+	height: 23%;
+}
+.word-letters{
+	font-size: 150%;
+	color:black;
+	border-bottom: thin solid black;
+	width: 8%;
+	height: 30%;
+	margin: 10px; auto;
+	text-align: center;
+}
+.strike-red{
+	background-color: red;
+	text-decoration: line-through;
+}
+.strike-blue{
+	background-color: #1a237e;
+	color:white;
+	text-decoration: line-through;
+}
+#new-game{
+	position: absolute;
+	right: 10px;
+	width: 100px;
+}
